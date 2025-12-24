@@ -278,7 +278,7 @@ view: recommendations_export {
     }
     link: {
       label: "Project Cost Dashboard"
-      url: "{% unless project_name._value contains ',' %}/dashboards-next/gcp_billing_block::project_deep_dive?Project%20ID={{ cloud_entity_id._value }}{% endunless %}"
+      url: "{% unless project_name._value contains ',' %}/dashboards-next/gcp_billing::project_deep_dive?Project%20ID={{ cloud_entity_id._value }}{% endunless %}"
     }
   }
 

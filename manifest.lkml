@@ -6,7 +6,7 @@ constant: RECOMMENDATION_TABLE {
 }
 
 constant: BILLING_TABLE {
-  value: "instance.billing.gcp_billing_export_public"
+  value: "billing-administration-429409.billing_export_argolis_haengeun.gcp_billing_export_v1_01785D_0BBB78_D968FB"
   export: override_optional
 }
 
@@ -16,6 +16,6 @@ constant: PRICING_TABLE {
 }
 
 constant: CONNECTION {
-  value: "bq-connection"
+  value: "billing_export_argolis_haengeun"
   export: override_optional
 }
