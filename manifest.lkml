@@ -1,7 +1,7 @@
 ################ Constants ################
 
 constant: RECOMMENDATION_TABLE {
-  value: "billing-administration-429409.billing_export_argolis_haengeun.recommendations_export_v2"
+  value: "billing-administration-429409.billing_export_argolis_haengeun.recommendations_export"
   export: override_optional
 }
 
